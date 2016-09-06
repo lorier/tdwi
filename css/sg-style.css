@@ -156,9 +156,10 @@ body {
 .sg-logo,
 .sg-about p,
 .sg-color-value  {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "AvenirNextLTPro Medium", Georgia, serif;
   font-weight: 400;
 }
+
 
 /* SG Font 2 */
 .sg-font2,
@@ -169,8 +170,8 @@ body {
 .sg-h3,
 .sg-color-name,
 .sg-font-list dt  {
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 500;
+  font-family: "AvenirNextLTPro Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 500;
 }
 
 /* Branding
@@ -178,9 +179,15 @@ body {
 .sg-logo {
   float: left;
   font-size: 1em;
-  line-height: 2;
+  line-height: 6.5;
   margin: 0;
   padding: 0;
+  background: url("../images/tdwi-logo.png") no-repeat 20px center;
+  background-size: 80px auto;
+  padding-left: 120px;
+  height: 80px;
+  display: block;
+}
 }
 
 .sg-logo-full {
@@ -283,7 +290,7 @@ body {
 }
 
 .sg-h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   padding-bottom: .2em;
   text-transform: capitalize;
 }
@@ -294,6 +301,11 @@ body {
   margin-bottom: .75em;
   padding-bottom: .2em;
   text-transform: capitalize;
+}
+.sg-section-group .sg-h2 {
+  border-bottom: none;
+  padding-top: 20px;
+    border-top: 1px solid #ddd;
 }
 
 .sg-h3 {
@@ -384,6 +396,7 @@ body {
 .sg-section {
   margin-bottom: 32px; /* For older browsers */
   margin-bottom: 3rem;
+  margin-left:;
 }
 
 /* Colors
@@ -450,7 +463,7 @@ body {
 
 .sg-font-list dt {
   display: block;
-  padding-bottom: .25em;
+  /*padding-bottom: .25em;*/
 }
 
 .sg-font-list dd {
@@ -463,7 +476,7 @@ body {
 
 @media only screen and (min-width: 760px) {
   .sg-font-list dt {
-    float: left;
+    /*float: left;*/
     padding-right: .25em;
   }
 }
@@ -472,7 +485,7 @@ body {
 /* Markup
 ---------------------------------------------------------------------------- */
 .sg-doc {
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
   margin-bottom: 1em;
 }
 
