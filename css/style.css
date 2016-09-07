@@ -18,58 +18,23 @@
     font-weight: normal;
     font-style: normal;
 }
+@import 'https://fonts.googleapis.com/css?family=PT+Serif:400,700';
 
- body {
+body {
   font-family: "AvenirNextLTPro Medium", "Georgia", Arial, sans-serif;
+  color: #393e41;
 }
-
+a {
+  color: #393e41;
+}
 img, svg, video, audio {
   max-width: 100%;
 }
 
-
-/* -------------------------------------------------------------------------
- Buttons
----------------------------------------------------------------------------- */
-/**/
-.button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-    font-family: "AvenirNextLTPro-Bold", "Helvetica", Helvetica, Arial, sans-serif !important;
-    font-weight: bold;
-    line-height: normal;
-    margin: 0 0 10px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-    font-size: 15px;
-
-    border: 2px solid black; 
-    background-color: none; 
-    transition: border-color 300ms ease-out;
-}
-
-
-.button:hover {
-    /*text-decoration: underline;*/
-    transition: border-color 300ms ease-out;
-    border-color: #999;
-}
-.btn-solid-green {
-    border: none;
-    background-color: #1f9361;
-    color: white;
-    padding: 12px 20px;
-        transition: background-color 300ms ease-out;
-
-}
-.btn-solid-green:hover {
-    text-decoration: none;
-    background-color: #28774e;
-    transition: background-color 300ms ease-out;
+/*Helpers*/
+.color-field-green {
+  padding: 20px;
+  background-color: #1f9361;
 }
 
 
@@ -116,7 +81,24 @@ img, svg, video, audio {
   color: #2f7090;
 }
 
+/* -------------------------------------------------------------------------
+ Blockquote
+---------------------------------------------------------------------------- */
+/**
+ * Breadcrumb styles for first pattern. Your patterns/styles will vary.
+ * You should link your main stylesheet up with Style Guide Boilerplate for
+ * best results. When you update your site's styles, your style guide will
+ * update as well.
+ */
 
+blockquote {
+  font-family: "PT Serif", serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  max-width: 300px;
+  text-indent: -13px;
+}
 
 /* -------------------------------------------------------------------------
  Breadcrumbs
@@ -134,6 +116,8 @@ img, svg, video, audio {
   list-style: none;
   margin: 0 0 20px;
   padding: 8px 15px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .breadcrumb li {
@@ -144,19 +128,210 @@ img, svg, video, audio {
 }
 
 .breadcrumb li a {
-  color: #007f96;
-  text-decoration: none;
-}
-
-.breadcrumb li a:hover {
-  color: #004068;
+  text-decoration: underline;
+    color: #393e41;
 }
 
 .breadcrumb li .divider {
-  color: #767676;
-  padding: 0 5px;
+  padding: 0 2px;
 }
 
 .breadcrumb .active {
-  color: #555;
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------
+ Buttons
+---------------------------------------------------------------------------- */
+/**/
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    font-family: "AvenirNextLTPro-Bold", "Helvetica", Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 0 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 15px;
+
+    border: 2px solid black; 
+    background-color: none; 
+    transition: border-color 300ms ease-out;
+}
+
+
+.button:hover {
+    /*text-decoration: underline;*/
+    transition: border-color 300ms ease-out;
+    border-color: #999;
+}
+.btn-white {
+  border: 2px solid white; 
+  background-color: none; 
+  color: white;
+  transition: background-color 300ms ease-out;
+}
+.btn-white:hover {
+  border: 2px solid white; 
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 300ms ease-out;
+
+}
+.btn-solid-green {
+    border: none;
+    background-color: #1f9361;
+    color: white;
+    padding: 12px 20px;
+        transition: background-color 300ms ease-out;
+
+}
+.btn-solid-green:hover {
+    text-decoration: none;
+    background-color: #28774e;
+    transition: background-color 300ms ease-out;
+}
+.btn-solid-red {
+    background-color: #c64b39;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    transition: background-color 300ms ease-out;
+}
+.btn-solid-red:hover {
+    text-decoration: none;
+    background-color: #c23a27;
+    transition: background-color 300ms ease-out;
+}
+.btn-solid-yellow {
+    background-color: #ecca1a;
+    border: none;
+    color: #393e41;
+    padding: 12px 20px;
+    transition: background-color 300ms ease-out;
+}
+.btn-solid-yellow:hover {
+    text-decoration: none;
+    background-color: #f6da45;
+    transition: background-color 300ms ease-out;
+}
+/* -------------------------------------------------------------------------
+HR
+---------------------------------------------------------------------------- */
+hr {
+  border: 0 none;
+  background-color: #dad9d4;
+  height: 1px;
+}
+
+/* -------------------------------------------------------------------------
+Lists - Unordered
+---------------------------------------------------------------------------- */
+.list-unordered-a,
+.list-unordered-b,
+.list-unordered-c {
+  list-style-type: none;
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.list-unordered-a li,
+.list-unordered-b li,
+.list-unordered-c li {
+  margin-bottom: 10px;
+}
+.list-unordered-a {
+  list-style-type: none;
+  font-family: "AvenirNextLTPro Medium", "Georgia", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+/* -------------------------------------------------------------------------
+Menus
+---------------------------------------------------------------------------- */
+/*Main Nav*/
+.nav ul {
+    *zoom:1;
+    list-style:none;
+    margin:0;
+    padding:0;
+    background:#333;
+}
+.nav ul:before,.nav ul:after {
+    content:"";
+    display:table;
+}
+.nav ul:after {
+    clear:both;
+}
+.nav ul > li {
+    float:left;
+    position:relative;
+}
+.nav a {
+    display:block;
+    padding:10px 20px;
+    line-height:1.2em;
+    color:#fff;
+    border-left:1px solid #595959;
+}
+.nav a:hover {
+    text-decoration:none;
+    background:#595959;
+}
+.nav li ul {
+    background:#273754;
+}
+.nav li ul li {
+    width:200px;
+}
+.nav li ul a {
+    border:none;
+}
+.nav li ul a:hover {
+    background:rgba(0,0,0,0.2);
+}
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+    visibility:hidden;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transition:200ms ease;
+    -moz-transition:200ms ease;
+    -o-transition:200ms ease;
+    transition:200ms ease;
+}
+.nav ul > li:hover ul {
+    visibility:visible;
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+
+/*Subnav*/
+.menu ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.menu a {
+  padding-bottom: 5px;
+  color: black;
+  border-bottom: 2px solid rgba(255,255,255,0.0);
+  transition: all 300ms ease-out;
+
+}
+.menu a:hover {
+  color: #c64b39;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #c64b39;
+  transition: all 300ms ease-out;
+
 }
