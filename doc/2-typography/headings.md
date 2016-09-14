@@ -1,0 +1,1 @@
+The headings below are more of a guide than a hard-and-fast structure for the headline styles across the site. Individual components may need slightly different styling depending on the context. Please refer to the final design files.

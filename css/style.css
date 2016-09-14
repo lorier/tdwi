@@ -195,6 +195,26 @@ blockquote {
     background-color: #28774e;
     transition: background-color 300ms ease-out;
 }
+.btn-solid-white {
+    border: none;
+    background-color: white;
+    color: #393e41;
+    padding: 12px 20px;
+        transition: background-color 300ms ease-out;
+
+}
+.btn-solid-white:hover {
+    border: none;
+    background-color: rgba(255,255,255, 0.9);
+    color: #393e41;
+    padding: 12px 20px;
+    transition: background-color 300ms ease-out;
+}
+.btn-solid-green:hover {
+    text-decoration: none;
+    background-color: #28774e;
+    transition: background-color 300ms ease-out;
+}
 .btn-solid-red {
     background-color: #c64b39;
     border: none;
@@ -218,6 +238,52 @@ blockquote {
     text-decoration: none;
     background-color: #f6da45;
     transition: background-color 300ms ease-out;
+}
+/* -------------------------------------------------------------------------
+Headings
+---------------------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "AvenirNextLTPro Bold", Arial, sans-serif;
+  color: #393e41;
+}
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span {
+  font-weight: normal;
+  text-transform: none;
+}
+h1 {
+  font-size: 35px;
+  line-height: 42px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 26px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+p {
+  font-family:  "PT Serif", serif;
+  font-size: 16px;
+  line-height: 22px
 }
 /* -------------------------------------------------------------------------
 HR
