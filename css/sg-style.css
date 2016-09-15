@@ -324,9 +324,9 @@ body {
 /* Buttons
 ---------------------------------------------------------------------------- */
 .sg-btn {
-  background: #cbcbcb;
+  background: #e0e1db;
   border: none;
-  color: #222;
+  color: #393e41;
   float: left;
   font-size: 16px; /* For older browsers */
   font-size: 1rem;
