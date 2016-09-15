@@ -53,7 +53,7 @@
         <div class="sg-info">
           <div class="sg-about sg-section">
             <h2 id="sg-about" class="sg-h2">Getting Started</h2>
-            <p>A living style guide is a great tool to promote visual consistency, unify UX designers and front-end developers, as well as speed up development times.</p>
+            <p>This is a living style guide, designed to bridge the gap between UX design and front-end development. Its purpose is to promote visual consistency, increase efficiency and ensure that the site can continue to scale and evolve.</p>
           </div><!--/.sg-about-->
 
 
