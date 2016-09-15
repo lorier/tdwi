@@ -1,1 +1,1 @@
-The TDWI color palette consists of the following 4 colors. Additional colors may be used for alters or other subtle UI elements.
+The TDWI color palette consists of the following 6 colors. Additional colors may be used for accents or other subtle UI elements.
